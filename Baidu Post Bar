@@ -40,7 +40,7 @@ def get_content(url):
 
 
 def Out2File(dict):
-    with open('TTBT.txt', 'a+',encoding='utf-8') as f:
+    with open('spider.txt', 'a+',encoding='utf-8') as f:
         for comment in dict:
             f.write('Title:{} \t Link:{} \t People:{} \t Time:{} \t Num:{} \n'.format(
                 comment['title'],
